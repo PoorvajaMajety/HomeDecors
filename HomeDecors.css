@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+}
+
+/* NavBar */
+
+.navbar-brand{
+    width: 10%;
+}
+.navbar{
+    background-color:#101820;
+}
+.nav-link{
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: #FEE715;
+}
+
+/* Home */
+
+.bgimg{
+    background-image:url('./1.png');
+    width: 100vw;
+    height: 89vh;
+    background-position: center;
+    background-size: cover;
+}
+.hhead{
+    color: black;
+    margin-top: 2%;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 11%;
+}
+ 
+/* About */
+
+
+.apara{
+    font-size: 25px;
+    color:white;
+}
+.d-block{
+    aspect-ratio: 3/2;
+    width: 100%;
+}
+
+/* Footer */
+
+.fbgimg{
+    padding-top: 2%;
+    background-color: black;
+}
+.fhead{
+    padding-top: 2%;
+    color: white;
+    text-decoration: underline solid gold;
+}
+.fthree h6{
+    color:whitesmoke;
+}
+.ficon{
+    padding: 1%;
+}
+.ficon i{
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 1%;
+}
+.ficon i:hover{
+    color: goldenrod;
+}
